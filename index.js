@@ -1,6 +1,7 @@
+require('dotenv').config();
 const { Client, GatewayIntentBits, EmbedBuilder } = require('discord.js');
 const { google } = require('googleapis');
-require('dotenv').config();
+
 
 const config = {
   youtubeApiKey: process.env.YOUTUBE_API_KEY,
